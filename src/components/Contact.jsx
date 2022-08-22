@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white' >
+    <div name='contact' className='w-full h-screen p-4 ' >
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <Fade bottom>
           <div className='pb-8'>
@@ -22,25 +22,24 @@ const Contact = () => {
                 name="name"
                 required
                 placeholder="Name"
-                className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
+                className='p-2 bg-transparent border-carbon-100 border-2 rounded-md  focus:outline-wmelon-100' />
 
               <input
                 type="text"
                 name="email"
                 placeholder="Email"
                 required
-                className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none' />
+                className='p-2 my-4 bg-transparent border-carbon-100 border-2 rounded-md  focus:outline-wmelon-100' />
 
               <textarea
                 name="message"
                 rows="10"
                 placeholder="Message"
                 required
-                className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
+                className='p-2 bg-transparent border-2 border-carbon-100 rounded-md  focus:outline-wmelon-100'></textarea>
 
               <button
-
-                className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
+                className='text-white bg-wmelon-100 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
                 Send message
               </button>
             </form>

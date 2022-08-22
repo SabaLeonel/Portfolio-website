@@ -6,17 +6,21 @@ import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div name="home" className='h-screen w-full '>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 
                 <div class='flex flex-col justify-center h-full'>
                     <Fade left>
-                    <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi, <br /> I'm Leonel Saba,<br />web developper</h2>
+                    <h2 className='text-4xl sm:text-7xl font-bold'>Hi, <br /> I'm <span className='text-wmelon-100'>Leonel</span> Saba,<br />web developper</h2>
                     <p className='text-gray-500 py-4 max-w-md'>Front End Developer
                     </p>
                     <div>
-                        <Link to="contact" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer'>
-                            Contact Me !
+                        <Link 
+                        to="contact" 
+                        smooth 
+                        duration={500} 
+                        className='group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-wmelon-100 text-white cursor-pointer hover:scale-110 duration-300'>
+                            Contact me
                             
                         </Link>
                     </div>
