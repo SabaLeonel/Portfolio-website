@@ -36,7 +36,7 @@ const Contact = () => {
                 rows="10"
                 placeholder="Message"
                 required
-                className='p-2 bg-transparent border-2 border-carbon-100 rounded-md  focus:outline-wmelon-100'></textarea>
+                className='p-2 resize-none bg-transparent border-2 border-carbon-100 rounded-md  focus:outline-wmelon-100'></textarea>
 
               <button
                 className='text-white bg-wmelon-100 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
