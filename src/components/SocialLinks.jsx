@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/sabaleonel",
+      
     },
     {
       id: 3,

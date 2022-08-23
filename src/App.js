@@ -10,7 +10,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[url('./assets/blob-phone.svg')] bg-fixed md:bg-[url('./assets/blob.svg')]  bg-no-repeat bg-cover">
       <NavBar />
       <Home />
       <SocialLinks />

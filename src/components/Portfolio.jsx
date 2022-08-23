@@ -34,7 +34,7 @@ const Portfolio = () => {
 
 
     return (
-        <div name="portfolio" className=' w-full'>
+        <div name="portfolio" className='w-full'>
             <div className='max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full'>
                 <Fade bottom>
                     <div className='pb-8'>

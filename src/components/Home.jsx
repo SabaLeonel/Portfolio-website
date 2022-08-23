@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     return (
-        <div name="home" className="bg-[url('./assets/blob-phone.svg')] md:bg-[url('./assets/blob.svg')]  bg-no-repeat bg-cover h-screen w-full ">
+        <div name="home" className="h-screen w-full ">
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 
                 <div class='flex flex-col justify-center h-full'>
