@@ -34,8 +34,8 @@ const Portfolio = () => {
 
 
     return (
-        <div name="portfolio" className=' w-full md:h-screen'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div name="portfolio" className=' w-full'>
+            <div className='max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full'>
                 <Fade bottom>
                     <div className='pb-8'>
                         <p className='text-4xl font-bold inline border-b-4 border-wmelon-100'>Portfolio</p>

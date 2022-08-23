@@ -10,7 +10,7 @@ module.exports = {
           100: "#FF3B3F",
         },
         carbon: {
-          100: "#A9A9A9",
+          100: "#4A4A4A",
         },
         neutral: {
           100: "#EFEFEF",
