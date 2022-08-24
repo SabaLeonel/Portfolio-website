@@ -7,7 +7,7 @@ const Contact = () => {
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <Fade bottom>
           <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-wmelon-100'>Contact me</p>
+            <p className='text-4xl font-bold inline border-t-4  border-secondary'>Contact me</p>
 
           </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                 className='p-2 resize-none bg-transparent border-2 border-carbon-100 rounded-md  focus:outline-wmelon-100'></textarea>
 
               <button
-                className='text-white bg-wmelon-100 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
+                className='text-white bg-secondary px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
                 Send message
               </button>
             </form>

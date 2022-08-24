@@ -7,23 +7,21 @@ import Fade from 'react-reveal/Fade';
 const Home = () => {
     return (
         <div name="home" className="h-screen w-full ">
-            <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-                
-                <div class='flex flex-col justify-center h-full'>
+            <div className="max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full">
+
+                <div class='flex flex-wrap lg:ml-20 md:justify-start justify-center max-w-xl mt-0 md:my-36'>
                     <Fade left>
-                    <h2 className='text-4xl sm:text-7xl font-bold'>Hi, <br /> I'm <span className='text-wmelon-100'>Leonel</span> Saba,<br />web developper</h2>
-                    <p className='text-gray-500 py-4 max-w-md'>Front End Developer
-                    </p>
-                    <div>
-                        <Link 
-                        to="contact" 
-                        smooth 
-                        duration={500} 
-                        className='group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-wmelon-100 text-white cursor-pointer hover:scale-110 duration-300 animate-bounce'>
-                            Contact me
-                            
-                        </Link>
-                    </div>
+                        <h1 className='text-5xl md:text-6xl lg:text-7xl text-center md:text-left font-bold'>Hi. I'm Leonel. <br />I'm a <span className='text-secondary'>Web Dev</span></h1>
+                        <div className='mt-10 md:mt-20'>
+                            <Link
+                                to="portfolio"
+                                smooth
+                                duration={500}
+                                offset={-100}
+                                className='group font-bold w-fit px-14 py-3 my-4 flex items-center rounded-md bg-secondary text-white cursor-pointer hover:scale-110 duration-300'>
+                                Projects
+                            </Link>
+                        </div>
                     </Fade>
                 </div>
                 <div>

@@ -6,16 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        wmelon: {
-          100: "#FF3B3F",
+        'body': '#002651',
+        'selected-text': '#ff304f',
+        'secondary': '#ff304f',
+        'nav': '#002651',
+        'input-border': '#28c7fa',
+        'input': '#775ada',
         },
-        carbon: {
-          100: "#4A4A4A",
-        },
-        neutral: {
-          100: "#EFEFEF",
-        },
-      },
     },
   },
   plugins: [],

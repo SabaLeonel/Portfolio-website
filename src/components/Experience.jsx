@@ -54,7 +54,7 @@ const Experience = () => {
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <Fade bottom>
                     <div>
-                        <p className='text-4xl font-bold border-b-4 border-wmelon-100 inline'>Experience</p>
+                        <p className='text-4xl font-bold border-t-4  border-secondary inline'>Experience</p>
                         <p className='py-6'>These are the technologies I've worked with</p>
                     </div>
 
