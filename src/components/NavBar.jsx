@@ -10,23 +10,28 @@ export const NavBar = () => {
         {
             id: 1,
             link: 'home',
+            active: 'text-secondary',
         },
         {
             id: 2,
             link: 'projects',
+            active: 'text-secondary',
         },
         {
             id: 3,
             link: 'experience',
+            active: 'text-secondary',
         },
         {
             id: 4,
             link: 'about',
+            active: 'text-secondary',
         },
         {
             id: 5,
             link: 'contact',
             style: 'bg-secondary font-bold text-white rounded-md',
+            active: 'text-white',
         }
     ];
 
@@ -36,11 +41,11 @@ export const NavBar = () => {
                 <h1 className="text-lg ml-2 font-bold">Leonel Saba</h1>
             </div>
             <ul className="hidden md:flex">
-                {links.map(({ id, link, style}) => (
+                {links.map(({ id, link, style, active}) => (
                     <li 
                     key={id} 
                     className={`px-4 cursor-pointer capitalize hover:scale-105 duration-200 ${style}`}>
-                        <Link activeClass="text-bold text-secondary" smooth spy to={link} offset={-75} duration={500}>
+                        <Link activeClass={`text-bold ${active}`} smooth spy to={link} offset={-75} duration={500}>
                             {link}
                         </Link>
                     </li>
