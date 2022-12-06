@@ -14,7 +14,7 @@ const Home = () => {
                         <h1 className='text-5xl md:text-6xl lg:text-7xl text-center md:text-left font-bold'>Hi. I'm Leonel. <br />I'm a <span className='text-secondary'>Web Dev</span></h1>
                         <div className='mt-10 md:mt-20'>
                             <Link
-                                to="portfolio"
+                                to="Projects"
                                 smooth
                                 duration={500}
                                 offset={-100}
