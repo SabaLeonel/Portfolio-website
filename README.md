@@ -5,7 +5,6 @@ My personal portfolio <a href="https://www.lsaba.ch/" target="_blank">lsaba.ch</
 This project was built using these technologies.
 
 - React.js
-- Node.js
 - HTML/ CSS
 - VS Code
 - Vercel
