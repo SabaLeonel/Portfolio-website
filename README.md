@@ -1,6 +1,6 @@
 ## Built With
 
-My personal portfolio <a href="https://www.lsaba.ch/" target="_blank">lsaba.ch</a> which features some of my github projects as well as my technical skills.<br/>
+My personal portfolio<br/>
 
 This project was built using these technologies.
 
